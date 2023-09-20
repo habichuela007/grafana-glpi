@@ -1,0 +1,27 @@
+/*BUscar todos los tickets*/
+http://10.20.10.32/glpi/apirest.php/search/Ticket
+
+http://10.20.10.32/glpi/apirest.php/search/Ticket/?session_token=cd92a25c5284a6c7b6dfa128e38c697f&is_deleted=1
+
+
+http://10.20.10.32/glpi/apirest.php/search/Ticket/?is_deleted=0&criteria[0][field]=2&criteria[0][searchtype]=contains&criteria[0][value]=&search=Rechercher&itemtype=Ticket&start=0&criteria[1][link]=AND&criteria[1][field]=0&criteria[1][searchtype]=morethan&_select_criteria[1][value]=0&_criteria[1][value]=1694648069&criteria[1][value]=2023-09-13 23:34:29&criteria[2][link]=AND&criteria[2][field]=0&criteria[2][searchtype]=lessthan&_select_criteria[2][value]=0&_criteria[2][value]=1694820869&criteria[2][value]=2023-09-15 23:34:29&forcedisplay[0]=0"
+
+/*Consulta los tickets nuevos*/
+SELECT "totalcount FROM" http://10.20.10.32/glpi/apirest.php/search/Ticket/?session_token=102095e29a7101730f24800a9e500e41&is_deleted=0&criteria[0][itemtype]=Ticket&criteria[0][field]=12&criteria[0][value]=1&criteria[0][searchtype]=equals
+
+/*WORKING ON SHOW NEW TICKETS FOR GRAFANA simple json */
+
+{
+    "url": "http://10.20.10.32/glpi/apirest.php/search/Ticket?session_token=102095e29a7101730f24800a9e500e41&is_deleted=0&criteria[0][field]=2&criteria[0][searchtype]=contains&criteria[0][value]=&search=Rechercher&itemtype=Ticket&start=0&criteria[1][link]=AND&criteria[1][field]=12&criteria[1][searchtype]=equals&criteria[1][value]=1&forcedisplay[0]=0",
+    "method": "GET",
+    "jsonData": null,
+    "jsonQuery": "totalcount",
+    "timeField": "",
+    "refId": "A"
+  }
+
+  http://10.20.10.32/glpi/apirest.php/search/Ticket/?is_deleted=0\
+  &criteria[0][itemtype]=Ticket&criteria[0][field]=12&criteria[0][value]=1&criteria[0][searchtype]=equals\
+  &criteria[1][link]=OR&criteria[1][itemtype]=Ticket&criteria[1][field]=12&criteria[1][value]=2&criteria[1][searchtype]=equals\
+  &criteria[2][link]=OR&criteria[2][itemtype]=Ticket&criteria[2][field]=12&criteria[2][value]=3&criteria[2][searchtype]=equals\
+  &session_token=b688fa0b46cbf39c41c340538111531f

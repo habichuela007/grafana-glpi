@@ -1,0 +1,1615 @@
+{
+    "common": {
+        "name": "Características"
+    },
+    "1": {
+        "name": "Nombre",
+        "table": "glpi_monitors",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.name"
+    },
+    "86": {
+        "name": "Subentidades",
+        "table": "glpi_monitors",
+        "field": "is_recursive",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals"
+        ],
+        "uid": "Monitor.is_recursive"
+    },
+    "450": {
+        "name": "Proyecto",
+        "table": "glpi_projects",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Item_Project.Project.name"
+    },
+    "2": {
+        "name": "ID",
+        "table": "glpi_monitors",
+        "field": "id",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.id"
+    },
+    "3": {
+        "name": "Lugares",
+        "table": "glpi_locations",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.Location.completename"
+    },
+    "101": {
+        "name": "Dirección",
+        "table": "glpi_locations",
+        "field": "address",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.address"
+    },
+    "102": {
+        "name": "Código postal",
+        "table": "glpi_locations",
+        "field": "postcode",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.postcode"
+    },
+    "103": {
+        "name": "Localidad",
+        "table": "glpi_locations",
+        "field": "town",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.town"
+    },
+    "104": {
+        "name": "Estado",
+        "table": "glpi_locations",
+        "field": "state",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.state"
+    },
+    "105": {
+        "name": "País",
+        "table": "glpi_locations",
+        "field": "country",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.country"
+    },
+    "91": {
+        "name": "Número de edificio",
+        "table": "glpi_locations",
+        "field": "building",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.building"
+    },
+    "92": {
+        "name": "Número de habitación",
+        "table": "glpi_locations",
+        "field": "room",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.room"
+    },
+    "93": {
+        "name": "Comentarios",
+        "table": "glpi_locations",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.comment"
+    },
+    "998": {
+        "name": "Latitud",
+        "table": "glpi_locations",
+        "field": "latitude",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.latitude"
+    },
+    "999": {
+        "name": "Longitud",
+        "table": "glpi_locations",
+        "field": "longitude",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Location.longitude"
+    },
+    "4": {
+        "name": "Tipo",
+        "table": "glpi_monitortypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.MonitorType.name"
+    },
+    "40": {
+        "name": "Modelo",
+        "table": "glpi_monitormodels",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.MonitorModel.name"
+    },
+    "31": {
+        "name": "Estado",
+        "table": "glpi_states",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.State.completename"
+    },
+    "5": {
+        "name": "Número de serie",
+        "table": "glpi_monitors",
+        "field": "serial",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.serial"
+    },
+    "6": {
+        "name": "Número de inventario",
+        "table": "glpi_monitors",
+        "field": "otherserial",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.otherserial"
+    },
+    "7": {
+        "name": "Nombre de usuario alternativo",
+        "table": "glpi_monitors",
+        "field": "contact",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.contact"
+    },
+    "8": {
+        "name": "Número de usuario alternativo",
+        "table": "glpi_monitors",
+        "field": "contact_num",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.contact_num"
+    },
+    "10": {
+        "name": "UUID",
+        "table": "glpi_monitors",
+        "field": "uuid",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.uuid"
+    },
+    "70": {
+        "name": "Usuario",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.User.name"
+    },
+    "71": {
+        "name": "Grupo",
+        "table": "glpi_groups",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.Group.completename"
+    },
+    "19": {
+        "name": "Última modificación",
+        "table": "glpi_monitors",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.date_mod"
+    },
+    "121": {
+        "name": "Fecha de creación",
+        "table": "glpi_monitors",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.date_creation"
+    },
+    "16": {
+        "name": "Comentarios",
+        "table": "glpi_monitors",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.comment"
+    },
+    "11": {
+        "name": "Tamaño",
+        "table": "glpi_monitors",
+        "field": "size",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.size"
+    },
+    "41": {
+        "name": "Micrófono",
+        "table": "glpi_monitors",
+        "field": "have_micro",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_micro"
+    },
+    "42": {
+        "name": "Parlantes",
+        "table": "glpi_monitors",
+        "field": "have_speaker",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_speaker"
+    },
+    "43": {
+        "name": "Sub-D",
+        "table": "glpi_monitors",
+        "field": "have_subd",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_subd"
+    },
+    "44": {
+        "name": "BNC",
+        "table": "glpi_monitors",
+        "field": "have_bnc",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_bnc"
+    },
+    "45": {
+        "name": "DVI",
+        "table": "glpi_monitors",
+        "field": "have_dvi",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_dvi"
+    },
+    "46": {
+        "name": "Pivot",
+        "table": "glpi_monitors",
+        "field": "have_pivot",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_pivot"
+    },
+    "47": {
+        "name": "HDMI",
+        "table": "glpi_monitors",
+        "field": "have_hdmi",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_hdmi"
+    },
+    "48": {
+        "name": "DisplayPort",
+        "table": "glpi_monitors",
+        "field": "have_displayport",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.have_displayport"
+    },
+    "23": {
+        "name": "Fabricante",
+        "table": "glpi_manufacturers",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Manufacturer.name"
+    },
+    "24": {
+        "name": "Responsable técnico del hardware",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.users_id_tech.User.name"
+    },
+    "49": {
+        "name": "Grupo responsable del hardware",
+        "table": "glpi_groups",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.groups_id_tech.Group.completename"
+    },
+    "61": {
+        "name": "Nombre de la plantilla",
+        "table": "glpi_monitors",
+        "field": "template_name",
+        "datatype": "text",
+        "nosearch": true,
+        "nodisplay": true,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.template_name"
+    },
+    "80": {
+        "name": "Entidad",
+        "table": "glpi_entities",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.Entity.completename"
+    },
+    "82": {
+        "name": "Gestión global",
+        "table": "glpi_monitors",
+        "field": "is_global",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.is_global"
+    },
+    "notepad": {
+        "name": "Notas"
+    },
+    "200": {
+        "name": "Notas",
+        "table": "glpi_notepads",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Notepad.content"
+    },
+    "201": {
+        "name": "Fecha de creación",
+        "table": "glpi_notepads",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Notepad.date_creation"
+    },
+    "202": {
+        "name": "Escritor",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Notepad.User.name"
+    },
+    "203": {
+        "name": "Última modificación",
+        "table": "glpi_notepads",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Notepad.date_mod"
+    },
+    "204": {
+        "name": "Última actualizador",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.users_id_lastupdater.Notepad.User.name"
+    },
+    "datacenter": {
+        "name": "Centros de cómputos"
+    },
+    "178": {
+        "name": "Ubicación de centro de cómputos",
+        "table": "glpi_monitors",
+        "field": "_virtual_datacenter_position",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor._virtual_datacenter_position"
+    },
+    "rack": {
+        "name": "Racks"
+    },
+    "180": {
+        "name": "Nombre",
+        "table": "glpi_racks",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Item_Rack.Rack.name"
+    },
+    "181": {
+        "name": "Posición",
+        "table": "glpi_items_racks",
+        "field": "position",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Item_Rack.position"
+    },
+    "tracking": "Soporte",
+    "60": {
+        "name": "Cantidad de incidentes",
+        "table": "glpi_tickets",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Item_Ticket.Ticket.id"
+    },
+    "140": {
+        "name": "Número de problemas",
+        "table": "glpi_problems",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Item_Problem.Problem.id"
+    },
+    "network": {
+        "name": "Redes"
+    },
+    "21": {
+        "name": "Dirección MAC",
+        "table": "glpi_networkports",
+        "field": "mac",
+        "datatype": "mac",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.NetworkPort.mac"
+    },
+    "87": {
+        "name": "Network port type",
+        "table": "glpi_networkports",
+        "field": "instantiation_type",
+        "datatype": "itemtypename",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.NetworkPort.instantiation_type"
+    },
+    "126": {
+        "name": "IP",
+        "table": "glpi_ipaddresses",
+        "field": "name",
+        "datatype": "",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.IPAddress.name"
+    },
+    "127": {
+        "name": "Network names",
+        "table": "glpi_networknames",
+        "field": "name",
+        "datatype": "",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.NetworkPort.NetworkName.name"
+    },
+    "128": {
+        "name": "Network aliases",
+        "table": "glpi_networkaliases",
+        "field": "name",
+        "datatype": "",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.NetworkPort.NetworkName.NetworkAlias.name"
+    },
+    "22": {
+        "name": "Ethernet socket",
+        "table": "glpi_sockets",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.NetworkPort.NetworkPortEthernet.Glpi\\Socket.name"
+    },
+    "157": {
+        "name": "Redes Wifi",
+        "table": "glpi_wifinetworks",
+        "field": "name",
+        "datatype": "",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.NetworkPort.NetworkPortWifi.WifiNetwork.name"
+    },
+    "158": {
+        "name": "ESSID",
+        "table": "glpi_wifinetworks",
+        "field": "essid",
+        "datatype": "",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.NetworkPort.NetworkPortWifi.WifiNetwork.essid"
+    },
+    "62": {
+        "name": "Network fiber socket",
+        "table": "glpi_sockets",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.NetworkPort.NetworkPortFiberchannel.Glpi\\Socket.name"
+    },
+    "88": {
+        "name": "VLANs",
+        "table": "glpi_vlans",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Vlan.name"
+    },
+    "contract": {
+        "name": "Contratos"
+    },
+    "139": {
+        "name": "Número de contratos",
+        "table": "glpi_contracts_items",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.id"
+    },
+    "29": {
+        "name": "Nombre",
+        "table": "glpi_contracts",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.name"
+    },
+    "30": {
+        "name": "Número",
+        "table": "glpi_contracts",
+        "field": "num",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.num"
+    },
+    "129": {
+        "name": "Tipo",
+        "table": "glpi_contracttypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.ContractType.name"
+    },
+    "130": {
+        "name": "Duración",
+        "table": "glpi_contracts",
+        "field": "duration",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.duration"
+    },
+    "131": {
+        "name": "Periodicidad",
+        "table": "glpi_contracts",
+        "field": "periodicity",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.periodicity"
+    },
+    "132": {
+        "name": "Fecha de inicio",
+        "table": "glpi_contracts",
+        "field": "begin_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.begin_date"
+    },
+    "133": {
+        "name": "Número contable",
+        "table": "glpi_contracts",
+        "field": "accounting_number",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.accounting_number"
+    },
+    "134": {
+        "name": "Fecha de fin",
+        "table": "glpi_contracts",
+        "field": "end_date",
+        "datatype": "date_delay",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.end_date"
+    },
+    "135": {
+        "name": "Preaviso",
+        "table": "glpi_contracts",
+        "field": "notice",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.notice"
+    },
+    "136": {
+        "name": "Costo",
+        "table": "glpi_contractcosts",
+        "field": "totalcost",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.ContractCost.totalcost"
+    },
+    "137": {
+        "name": "Periodicidad de facturación",
+        "table": "glpi_contracts",
+        "field": "billing",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.billing"
+    },
+    "138": {
+        "name": "Renovación",
+        "table": "glpi_contracts",
+        "field": "renewal",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Contract_Item.Contract.renewal"
+    },
+    "document": {
+        "name": "Documentos"
+    },
+    "119": {
+        "name": "Número de documentos",
+        "table": "glpi_documents_items",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Document_Item.id"
+    },
+    "financial": {
+        "name": "Información financiera y administrativa"
+    },
+    "25": {
+        "name": "Número de inhibición",
+        "table": "glpi_infocoms",
+        "field": "immo_number",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.immo_number"
+    },
+    "26": {
+        "name": "Número de pedido",
+        "table": "glpi_infocoms",
+        "field": "order_number",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.order_number"
+    },
+    "27": {
+        "name": "Remito de entrega",
+        "table": "glpi_infocoms",
+        "field": "delivery_number",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.delivery_number"
+    },
+    "28": {
+        "name": "Número de factura",
+        "table": "glpi_infocoms",
+        "field": "bill",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.bill"
+    },
+    "37": {
+        "name": "Fecha de compra",
+        "table": "glpi_infocoms",
+        "field": "buy_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.buy_date"
+    },
+    "38": {
+        "name": "Fecha de puesta en servicio",
+        "table": "glpi_infocoms",
+        "field": "use_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.use_date"
+    },
+    "142": {
+        "name": "Fecha de entrega",
+        "table": "glpi_infocoms",
+        "field": "delivery_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.delivery_date"
+    },
+    "124": {
+        "name": "Fecha de orden",
+        "table": "glpi_infocoms",
+        "field": "order_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.order_date"
+    },
+    "123": {
+        "name": "Inicio de la garantía",
+        "table": "glpi_infocoms",
+        "field": "warranty_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.warranty_date"
+    },
+    "125": {
+        "name": "Fecha del último inventario físico",
+        "table": "glpi_infocoms",
+        "field": "inventory_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.inventory_date"
+    },
+    "50": {
+        "name": "Presupuesto",
+        "table": "glpi_budgets",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Budget.name"
+    },
+    "51": {
+        "name": "Duración de la garantía",
+        "table": "glpi_infocoms",
+        "field": "warranty_duration",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Infocom.warranty_duration"
+    },
+    "52": {
+        "name": "Datos de garantía",
+        "table": "glpi_infocoms",
+        "field": "warranty_info",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.warranty_info"
+    },
+    "120": {
+        "name": "Expiración de garantía",
+        "table": "glpi_infocoms",
+        "field": "end_warranty",
+        "datatype": "date_delay",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.end_warranty"
+    },
+    "53": {
+        "name": "Proveedor",
+        "table": "glpi_suppliers",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Supplier.name"
+    },
+    "54": {
+        "name": "Valor",
+        "table": "glpi_infocoms",
+        "field": "value",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.value"
+    },
+    "55": {
+        "name": "Valor extensión garantía",
+        "table": "glpi_infocoms",
+        "field": "warranty_value",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.warranty_value"
+    },
+    "56": {
+        "name": "Duración de amortización",
+        "table": "glpi_infocoms",
+        "field": "sink_time",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Infocom.sink_time"
+    },
+    "57": {
+        "name": "Tipo de amortización",
+        "table": "glpi_infocoms",
+        "field": "sink_type",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Infocom.sink_type"
+    },
+    "58": {
+        "name": "Coeficiente de amortización",
+        "table": "glpi_infocoms",
+        "field": "sink_coeff",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.sink_coeff"
+    },
+    "59": {
+        "name": "Alertas por correo",
+        "table": "glpi_infocoms",
+        "field": "alert",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.alert"
+    },
+    "122": {
+        "name": "Comentarios sobre informaciín administrativa y financiera",
+        "table": "glpi_infocoms",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.comment"
+    },
+    "173": {
+        "name": "Criticidad de negocio",
+        "table": "glpi_businesscriticities",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.BusinessCriticity.completename"
+    },
+    "159": {
+        "name": "Fecha de decomiso",
+        "table": "glpi_infocoms",
+        "field": "decommission_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Infocom.decommission_date"
+    },
+    "domain": {
+        "name": "Dominios"
+    },
+    "205": {
+        "name": "Nombre",
+        "table": "glpi_domains",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Domain_Item.Domain.name"
+    },
+    "206": {
+        "name": "Domain type",
+        "table": "glpi_domaintypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Domain_Item.Domain.DomainType.name"
+    },
+    "appliance": {
+        "name": "Aplicaciones"
+    },
+    "1210": {
+        "name": "Nombre",
+        "table": "glpi_appliances",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Appliance_Item.Appliance.name"
+    },
+    "1211": {
+        "name": "Tipos de aplicación",
+        "table": "glpi_appliancetypes",
+        "field": "name",
+        "datatype": "",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Appliance_Item.Appliance.ApplianceType.name"
+    },
+    "1212": {
+        "name": "Usuario",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Monitor.Appliance_Item.Appliance.User.name"
+    },
+    "1213": {
+        "name": "Grupo",
+        "table": "glpi_groups",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Monitor.Appliance_Item.Appliance.Group.name"
+    },
+    "link": "Enlaces externos",
+    "145": {
+        "name": "Enlaces externos",
+        "table": "glpi_links",
+        "field": "_virtual",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.Link_Itemtype.Link._virtual"
+    },
+    "manuallink": "Manual links",
+    "146": {
+        "name": "Manual links",
+        "table": "glpi_manuallinks",
+        "field": "_virtual",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Monitor.ManualLink._virtual"
+    }
+}

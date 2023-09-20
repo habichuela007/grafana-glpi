@@ -1,0 +1,18 @@
+/*EXAMPLE*/
+http://10.20.10.32/glpi/apirest.php/search/Monitor?\
+criteria\[0\]\[link\]\=AND\
+\&criteria\[0\]\[itemtype\]\=Monitor\
+\&criteria\[0\]\[field\]\=23\
+\&criteria\[0\]\[searchtype\]\=contains\
+\&criteria\[0\]\[value\]\=Sony\
+\&criteria\[1\]\[link\]\=AND\
+\&criteria\[1\]\[itemtype\]\=Monitor\
+\&criteria\[1\]\[field\]\=1\
+\&criteria\[1\]\[searchtype\]\=contains\
+\&criteria\[1\]\[value\]\=VAIO LCD\
+\&range\=0-2\&&forcedisplay\[0\]\=1'
+\&session_token=a9bfb5afd6e7204c8a4a144e77b53aa1
+
+http://10.20.10.32/glpi/apirest.php/search/Monitor?criteria[0][link]=AND&criteria[0][itemtype]=Monitor&criteria[0][field\]=23&criteria[0][searchtype\]=contains&criteria[0][value\]=Sony&session_token=a9bfb5afd6e7204c8a4a144e77b53aa1
+
+http://10.20.10.32/glpi/apirest.php/search/Monitor?criteria[0][link]=AND&criteria[0][itemtype]=Monitor&criteri[0][field]=23&criteria[0][searchtype]=contains&criteria[0][value]=Sony&range=0-2&session_token=cd92a25c5284a6c7b6dfa128e38c697f
