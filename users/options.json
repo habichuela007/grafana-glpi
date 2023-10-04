@@ -1,0 +1,719 @@
+{
+    "common": {
+        "name": "Características"
+    },
+    "1": {
+        "name": "Usuario",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.name"
+    },
+    "2": {
+        "name": "ID",
+        "table": "glpi_users",
+        "field": "id",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.id"
+    },
+    "34": {
+        "name": "Apellido",
+        "table": "glpi_users",
+        "field": "realname",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.realname"
+    },
+    "9": {
+        "name": "Nombre",
+        "table": "glpi_users",
+        "field": "firstname",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.firstname"
+    },
+    "5": {
+        "name": "Correos",
+        "table": "glpi_useremails",
+        "field": "email",
+        "datatype": "email",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.UserEmail.email"
+    },
+    "150": {
+        "name": "Imagen",
+        "table": "glpi_users",
+        "field": "picture",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.picture"
+    },
+    "28": {
+        "name": "Campo de sincronización",
+        "table": "glpi_users",
+        "field": "sync_field",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.sync_field"
+    },
+    "3": {
+        "name": "Lugares",
+        "table": "glpi_locations",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "User.Location.completename"
+    },
+    "101": {
+        "name": "Dirección",
+        "table": "glpi_locations",
+        "field": "address",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.address"
+    },
+    "102": {
+        "name": "Código postal",
+        "table": "glpi_locations",
+        "field": "postcode",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.postcode"
+    },
+    "103": {
+        "name": "Localidad",
+        "table": "glpi_locations",
+        "field": "town",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.town"
+    },
+    "104": {
+        "name": "Estado",
+        "table": "glpi_locations",
+        "field": "state",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.state"
+    },
+    "105": {
+        "name": "País",
+        "table": "glpi_locations",
+        "field": "country",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.country"
+    },
+    "91": {
+        "name": "Número de edificio",
+        "table": "glpi_locations",
+        "field": "building",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.building"
+    },
+    "92": {
+        "name": "Número de habitación",
+        "table": "glpi_locations",
+        "field": "room",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.room"
+    },
+    "93": {
+        "name": "Comentarios",
+        "table": "glpi_locations",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.comment"
+    },
+    "998": {
+        "name": "Latitud",
+        "table": "glpi_locations",
+        "field": "latitude",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.latitude"
+    },
+    "999": {
+        "name": "Longitud",
+        "table": "glpi_locations",
+        "field": "longitude",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Location.longitude"
+    },
+    "8": {
+        "name": "Activo",
+        "table": "glpi_users",
+        "field": "is_active",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.is_active"
+    },
+    "6": {
+        "name": "Teléfono",
+        "table": "glpi_users",
+        "field": "phone",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.phone"
+    },
+    "10": {
+        "name": "Teléfono 2",
+        "table": "glpi_users",
+        "field": "phone2",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.phone2"
+    },
+    "11": {
+        "name": "Teléfono celular",
+        "table": "glpi_users",
+        "field": "mobile",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.mobile"
+    },
+    "13": {
+        "name": "Grupos",
+        "table": "glpi_groups",
+        "field": "completename",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "User.Group_User.Group.completename"
+    },
+    "14": {
+        "name": "Última conexión",
+        "table": "glpi_users",
+        "field": "last_login",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.last_login"
+    },
+    "15": {
+        "name": "Autenticación",
+        "table": "glpi_users",
+        "field": "authtype",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals"
+        ],
+        "uid": "User.authtype"
+    },
+    "30": {
+        "name": "Directorio LDAP para autenticación",
+        "table": "glpi_authldaps",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.AuthLDAP.name"
+    },
+    "31": {
+        "name": "Servidor de correo para autenticación",
+        "table": "glpi_authmails",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.AuthMail.name"
+    },
+    "16": {
+        "name": "Comentarios",
+        "table": "glpi_users",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.comment"
+    },
+    "17": {
+        "name": "Idioma",
+        "table": "glpi_users",
+        "field": "language",
+        "datatype": "language",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.language"
+    },
+    "19": {
+        "name": "Última modificación",
+        "table": "glpi_users",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.date_mod"
+    },
+    "121": {
+        "name": "Fecha de creación",
+        "table": "glpi_users",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.date_creation"
+    },
+    "20": {
+        "name": "Perfiles (Entidad)",
+        "table": "glpi_profiles",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.Profile_User.Profile.name"
+    },
+    "21": {
+        "name": "DN del Usuario",
+        "table": "glpi_users",
+        "field": "user_dn",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.user_dn"
+    },
+    "22": {
+        "name": "Número administrativo",
+        "table": "glpi_users",
+        "field": "registration_number",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.registration_number"
+    },
+    "23": {
+        "name": "Última sincronización",
+        "table": "glpi_users",
+        "field": "date_sync",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.date_sync"
+    },
+    "24": {
+        "name": "Usuario eliminado en directorio LDAP",
+        "table": "glpi_users",
+        "field": "is_deleted_ldap",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.is_deleted_ldap"
+    },
+    "80": {
+        "name": "Entidades (Perfil)",
+        "table": "glpi_entities",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "User.Profile_User.Entity.completename"
+    },
+    "81": {
+        "name": "Título",
+        "table": "glpi_usertitles",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.UserTitle.name"
+    },
+    "82": {
+        "name": "Categoría",
+        "table": "glpi_usercategories",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.UserCategory.name"
+    },
+    "79": {
+        "name": "Perfil por defecto",
+        "table": "glpi_profiles",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.Profile.name"
+    },
+    "77": {
+        "name": "Entidad por defecto",
+        "table": "glpi_entities",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "User.Entity.name"
+    },
+    "62": {
+        "name": "Fecha de inicio",
+        "table": "glpi_users",
+        "field": "begin_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.begin_date"
+    },
+    "63": {
+        "name": "Fecha de fin",
+        "table": "glpi_users",
+        "field": "end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.end_date"
+    },
+    "60": {
+        "name": "Número de servicios como solicitante",
+        "table": "glpi_tickets",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Ticket_User.Ticket.id"
+    },
+    "61": {
+        "name": "Número de servicios creados",
+        "table": "glpi_tickets",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Ticket.id"
+    },
+    "64": {
+        "name": "Servicios asignados",
+        "table": "glpi_tickets",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Ticket_User.Ticket.id"
+    },
+    "99": {
+        "name": "Responsable",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "User.users_id_supervisor.name"
+    },
+    "document": {
+        "name": "Documentos"
+    },
+    "119": {
+        "name": "Número de documentos",
+        "table": "glpi_documents_items",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Document_Item.id"
+    },
+    "link": "Enlaces externos",
+    "145": {
+        "name": "Enlaces externos",
+        "table": "glpi_links",
+        "field": "_virtual",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.Link_Itemtype.Link._virtual"
+    },
+    "manuallink": "Enlaces manuales",
+    "146": {
+        "name": "Enlaces manuales",
+        "table": "glpi_manuallinks",
+        "field": "_virtual",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "User.ManualLink._virtual"
+    }
+}

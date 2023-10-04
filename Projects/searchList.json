@@ -1,0 +1,1009 @@
+{
+    "common": {
+        "name": "Characteristics"
+    },
+    "1": {
+        "name": "Name",
+        "table": "glpi_projects",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.name"
+    },
+    "2": {
+        "name": "ID",
+        "table": "glpi_projects",
+        "field": "id",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.id"
+    },
+    "4": {
+        "name": "Code",
+        "table": "glpi_projects",
+        "field": "code",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.code"
+    },
+    "13": {
+        "name": "Father",
+        "table": "glpi_projects",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.name"
+    },
+    "21": {
+        "name": "Description",
+        "table": "glpi_projects",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.content"
+    },
+    "3": {
+        "name": "Priority",
+        "table": "glpi_projects",
+        "field": "priority",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals"
+        ],
+        "uid": "Project.priority"
+    },
+    "14": {
+        "name": "Type",
+        "table": "glpi_projecttypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectType.name"
+    },
+    "12": {
+        "name": "State",
+        "table": "glpi_projectstates",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectState.name"
+    },
+    "15": {
+        "name": "Creation date",
+        "table": "glpi_projects",
+        "field": "date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.date"
+    },
+    "5": {
+        "name": "Percent done",
+        "table": "glpi_projects",
+        "field": "percent_done",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.percent_done"
+    },
+    "6": {
+        "name": "Show on global Gantt",
+        "table": "glpi_projects",
+        "field": "show_on_global_gantt",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.show_on_global_gantt"
+    },
+    "24": {
+        "name": "Manager",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.User.name"
+    },
+    "49": {
+        "name": "Manager group",
+        "table": "glpi_groups",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Project.Group.completename"
+    },
+    "7": {
+        "name": "Planned start date",
+        "table": "glpi_projects",
+        "field": "plan_start_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.plan_start_date"
+    },
+    "8": {
+        "name": "Planned end date",
+        "table": "glpi_projects",
+        "field": "plan_end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.plan_end_date"
+    },
+    "17": {
+        "name": "Planned duration",
+        "table": "glpi_projects",
+        "field": "_virtual_planned_duration",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project._virtual_planned_duration"
+    },
+    "9": {
+        "name": "Real start date",
+        "table": "glpi_projects",
+        "field": "real_start_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.real_start_date"
+    },
+    "10": {
+        "name": "Real end date",
+        "table": "glpi_projects",
+        "field": "real_end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.real_end_date"
+    },
+    "18": {
+        "name": "Effective duration",
+        "table": "glpi_projects",
+        "field": "_virtual_effective_duration",
+        "datatype": "specific",
+        "nosearch": true,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project._virtual_effective_duration"
+    },
+    "16": {
+        "name": "Comments",
+        "table": "glpi_projects",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.comment"
+    },
+    "19": {
+        "name": "Last update",
+        "table": "glpi_projects",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.date_mod"
+    },
+    "50": {
+        "name": "Template name",
+        "table": "glpi_projects",
+        "field": "template_name",
+        "datatype": "text",
+        "nosearch": true,
+        "nodisplay": true,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.template_name"
+    },
+    "121": {
+        "name": "Creation date",
+        "table": "glpi_projects",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.date_creation"
+    },
+    "80": {
+        "name": "Entity",
+        "table": "glpi_entities",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Project.Entity.completename"
+    },
+    "86": {
+        "name": "Child entities",
+        "table": "glpi_projects",
+        "field": "is_recursive",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.is_recursive"
+    },
+    "91": {
+        "name": "Total cost",
+        "table": "glpi_projectcosts",
+        "field": "totalcost",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Project.ProjectCost.totalcost"
+    },
+    "92": {
+        "name": "Number of changes",
+        "table": "glpi_itils_projects",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Itil_Project.id"
+    },
+    "93": {
+        "name": "Number of problems",
+        "table": "glpi_itils_projects",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Itil_Project.id"
+    },
+    "94": {
+        "name": "Number of tickets",
+        "table": "glpi_itils_projects",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Itil_Project.id"
+    },
+    "project_team": {
+        "name": "Project teams"
+    },
+    "87": {
+        "name": "Users",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTeam.User.name"
+    },
+    "88": {
+        "name": "Groups",
+        "table": "glpi_groups",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Project.ProjectTeam.Group.completename"
+    },
+    "89": {
+        "name": "Suppliers",
+        "table": "glpi_suppliers",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTeam.Supplier.name"
+    },
+    "90": {
+        "name": "Contacts",
+        "table": "glpi_contacts",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTeam.Contact.name"
+    },
+    "project_task": {
+        "name": "Project tasks"
+    },
+    "111": {
+        "name": "Name",
+        "table": "glpi_projecttasks",
+        "field": "name",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTask.name"
+    },
+    "112": {
+        "name": "Description",
+        "table": "glpi_projecttasks",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.content"
+    },
+    "113": {
+        "name": "State",
+        "table": "glpi_projectstates",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTask.ProjectState.name"
+    },
+    "114": {
+        "name": "Type",
+        "table": "glpi_projecttasktypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTask.ProjectTaskType.name"
+    },
+    "115": {
+        "name": "Creation date",
+        "table": "glpi_projecttasks",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.date_creation"
+    },
+    "116": {
+        "name": "Last update",
+        "table": "glpi_projecttasks",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.date_mod"
+    },
+    "117": {
+        "name": "Percent done",
+        "table": "glpi_projecttasks",
+        "field": "percent_done",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.ProjectTask.percent_done"
+    },
+    "118": {
+        "name": "Planned start date",
+        "table": "glpi_projecttasks",
+        "field": "plan_start_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.plan_start_date"
+    },
+    "119": {
+        "name": "Planned end date",
+        "table": "glpi_projecttasks",
+        "field": "plan_end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.plan_end_date"
+    },
+    "120": {
+        "name": "Real start date",
+        "table": "glpi_projecttasks",
+        "field": "real_start_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.real_start_date"
+    },
+    "122": {
+        "name": "Real end date",
+        "table": "glpi_projecttasks",
+        "field": "real_end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.real_end_date"
+    },
+    "123": {
+        "name": "Planned Duration",
+        "table": "glpi_projecttasks",
+        "field": "planned_duration",
+        "datatype": "timestamp",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.planned_duration"
+    },
+    "124": {
+        "name": "Effective duration",
+        "table": "glpi_projecttasks",
+        "field": "effective_duration",
+        "datatype": "timestamp",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.effective_duration"
+    },
+    "125": {
+        "name": "Comments",
+        "table": "glpi_projecttasks",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.comment"
+    },
+    "126": {
+        "name": "Milestone",
+        "table": "glpi_projecttasks",
+        "field": "is_milestone",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.ProjectTask.is_milestone"
+    },
+    "notepad": {
+        "name": "Notes"
+    },
+    "200": {
+        "name": "Notes",
+        "table": "glpi_notepads",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Notepad.content"
+    },
+    "201": {
+        "name": "Creation date",
+        "table": "glpi_notepads",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Notepad.date_creation"
+    },
+    "202": {
+        "name": "Writer",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Notepad.User.name"
+    },
+    "203": {
+        "name": "Last update",
+        "table": "glpi_notepads",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Notepad.date_mod"
+    },
+    "204": {
+        "name": "Last updater",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.users_id_lastupdater.Notepad.User.name"
+    },
+    "contract": {
+        "name": "Contracts"
+    },
+    "139": {
+        "name": "Location",
+        "table": "glpi_locations",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "Project.Contract_Item.Contract.Location.completename"
+    },
+    "29": {
+        "name": "Name",
+        "table": "glpi_contracts",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Contract_Item.Contract.name"
+    },
+    "30": {
+        "name": "Number",
+        "table": "glpi_contracts",
+        "field": "num",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Contract_Item.Contract.num"
+    },
+    "129": {
+        "name": "Type",
+        "table": "glpi_contracttypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Contract_Item.Contract.ContractType.name"
+    },
+    "130": {
+        "name": "Duration",
+        "table": "glpi_contracts",
+        "field": "duration",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Contract_Item.Contract.duration"
+    },
+    "131": {
+        "name": "Periodicity",
+        "table": "glpi_contracts",
+        "field": "periodicity",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Contract_Item.Contract.periodicity"
+    },
+    "132": {
+        "name": "Start date",
+        "table": "glpi_contracts",
+        "field": "begin_date",
+        "datatype": "date",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Contract_Item.Contract.begin_date"
+    },
+    "133": {
+        "name": "Account number",
+        "table": "glpi_contracts",
+        "field": "accounting_number",
+        "datatype": "string",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Contract_Item.Contract.accounting_number"
+    },
+    "134": {
+        "name": "End date",
+        "table": "glpi_contracts",
+        "field": "end_date",
+        "datatype": "date_delay",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Contract_Item.Contract.end_date"
+    },
+    "135": {
+        "name": "Notice",
+        "table": "glpi_contracts",
+        "field": "notice",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Contract_Item.Contract.notice"
+    },
+    "136": {
+        "name": "Cost",
+        "table": "glpi_contractcosts",
+        "field": "totalcost",
+        "datatype": "decimal",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Contract_Item.Contract.ContractCost.totalcost"
+    },
+    "137": {
+        "name": "Invoice period",
+        "table": "glpi_contracts",
+        "field": "billing",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "Project.Contract_Item.Contract.billing"
+    },
+    "138": {
+        "name": "Renewal",
+        "table": "glpi_contracts",
+        "field": "renewal",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "Project.Contract_Item.Contract.renewal"
+    },
+    "document": {
+        "name": "Documents"
+    }
+}

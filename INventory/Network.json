@@ -1,0 +1,10 @@
+http://10.20.10.32/glpi/apirest.php/search/Networkequipment/?is_deleted=0\
+
+http://10.20.10.32/glpi/apirest.php/search/Networkequipment/?is_deleted=0&forcedisplay=37&range=1-200\
+&criteria[0][link]=AND&criteria[0][itemtype]=networkdevice&criteria[0][field]=1&criteria[0][value]=SW-&criteria[0][searchtype]=contains\
+
+&criteria[1][link]=OR&criteria[1][itemtype]=Ticket&criteria[1][field]=12&criteria[1][value]=2&criteria[1][searchtype]=equals\
+&criteria[2][link]=OR&criteria[2][itemtype]=Ticket&criteria[2][field]=12&criteria[2][value]=3&criteria[2][searchtype]=equals\
+&criteria[3][link]=OR&criteria[3][itemtype]=Ticket&criteria[3][field]=12&criteria[3][value]=4&criteria[3][searchtype]=equals\
+&criteria[4][link]=OR&criteria[4][itemtype]=Ticket&criteria[4][field]=12&criteria[4][value]=1&criteria[4][searchtype]=equals\
+&criteria[5][link]=OR&criteria[5][itemtype]=Ticket&criteria[5][field]=95&criteria[5][value]=112&criteria[5][searchtype]=equals\
