@@ -59,4 +59,11 @@ http://10.20.10.32/glpi/apirest.php/getMultipleItems?is_deleted=0\
 http://10.20.10.32/glpi/apirest.php/search/Ticket/?is_deleted=0
 
 
-http://10.20.10.32/glpi/apirest.php/search/Ticket/?is_deleted=0\   &criteria[0][itemtype]=Ticket&criteria[0][field]=12&criteria[0][value]=1&criteria[0][searchtype]=equals\   &criteria[1][link]=OR&criteria[1][itemtype]=Ticket&criteria[1][field]=12&criteria[1][value]=2&criteria[1][searchtype]=equals\   &criteria[2][link]=OR&criteria[2][itemtype]=Ticket&criteria[2][field]=12&criteria[2][value]=3&criteria[2][searchtype]=equals\   &criteria[3][link]=OR&criteria[3][itemtype]=Ticket&criteria[3][field]=12&criteria[3][value]=4&criteria[3][searchtype]=equals\   &session_token=5056a8151aa8dfb08fe9f810d017c864
+http://10.20.10.32/glpi/apirest.php/search/Ticket/?is_deleted=0\
+&criteria[0][itemtype]=Ticket&criteria[0][field]=12&criteria[0][value]=1&criteria[0][searchtype]=equals\
+&criteria[1][link]=OR&criteria[1][itemtype]=Ticket&criteria[1][field]=12&criteria[1][value]=2&criteria[1][searchtype]=equals\
+&criteria[2][link]=OR&criteria[2][itemtype]=Ticket&criteria[2][field]=12&criteria[2][value]=3&criteria[2][searchtype]=equals\
+&criteria[3][link]=OR&criteria[3][itemtype]=Ticket&criteria[3][field]=12&criteria[3][value]=4&criteria[3][searchtype]=equals\
+
+http://10.20.10.32/glpi/apirest.php/search/Ticket/?is_deleted=0\
+&criteria[0][itemtype]=Ticket&criteria[0][field]=15&criteria[0][value]=2023-08-01 00:00:00&criteria[0][searchtype]=morethan
