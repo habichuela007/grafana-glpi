@@ -1,0 +1,420 @@
+{
+    "common": {
+        "name": "Characteristics"
+    },
+    "1": {
+        "name": "Name",
+        "table": "glpi_projecttasks",
+        "field": "name",
+        "datatype": "itemlink",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.name"
+    },
+    "2": {
+        "name": "Project",
+        "table": "glpi_projects",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.Project.name"
+    },
+    "13": {
+        "name": "Father",
+        "table": "glpi_projecttasks",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.name"
+    },
+    "21": {
+        "name": "Description",
+        "table": "glpi_projecttasks",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.content"
+    },
+    "12": {
+        "name": "State",
+        "table": "glpi_projectstates",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.ProjectState.name"
+    },
+    "14": {
+        "name": "Type",
+        "table": "glpi_projecttasktypes",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.ProjectTaskType.name"
+    },
+    "121": {
+        "name": "Creation date",
+        "table": "glpi_projecttasks",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.date_creation"
+    },
+    "19": {
+        "name": "Last update",
+        "table": "glpi_projecttasks",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.date_mod"
+    },
+    "5": {
+        "name": "Percent done",
+        "table": "glpi_projecttasks",
+        "field": "percent_done",
+        "datatype": "number",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.percent_done"
+    },
+    "24": {
+        "name": "Creator",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.User.name"
+    },
+    "7": {
+        "name": "Planned start date",
+        "table": "glpi_projecttasks",
+        "field": "plan_start_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.plan_start_date"
+    },
+    "8": {
+        "name": "Planned end date",
+        "table": "glpi_projecttasks",
+        "field": "plan_end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.plan_end_date"
+    },
+    "9": {
+        "name": "Real start date",
+        "table": "glpi_projecttasks",
+        "field": "real_start_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.real_start_date"
+    },
+    "10": {
+        "name": "Real end date",
+        "table": "glpi_projecttasks",
+        "field": "real_end_date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.real_end_date"
+    },
+    "11": {
+        "name": "Planned duration",
+        "table": "glpi_projecttasks",
+        "field": "planned_duration",
+        "datatype": "timestamp",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.planned_duration"
+    },
+    "17": {
+        "name": "Effective duration",
+        "table": "glpi_projecttasks",
+        "field": "effective_duration",
+        "datatype": "timestamp",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.effective_duration"
+    },
+    "16": {
+        "name": "Comments",
+        "table": "glpi_projecttasks",
+        "field": "comment",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.comment"
+    },
+    "18": {
+        "name": "Milestone",
+        "table": "glpi_projecttasks",
+        "field": "is_milestone",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.is_milestone"
+    },
+    "50": {
+        "name": "Template name",
+        "table": "glpi_projecttasks",
+        "field": "template_name",
+        "datatype": "text",
+        "nosearch": true,
+        "nodisplay": true,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.template_name"
+    },
+    "80": {
+        "name": "Entity",
+        "table": "glpi_entities",
+        "field": "completename",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "ProjectTask.Entity.completename"
+    },
+    "86": {
+        "name": "Child entities",
+        "table": "glpi_projecttasks",
+        "field": "is_recursive",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.is_recursive"
+    },
+    "notepad": {
+        "name": "Notes"
+    },
+    "200": {
+        "name": "Notes",
+        "table": "glpi_notepads",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.Notepad.content"
+    },
+    "201": {
+        "name": "Creation date",
+        "table": "glpi_notepads",
+        "field": "date_creation",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.Notepad.date_creation"
+    },
+    "202": {
+        "name": "Writer",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.Notepad.User.name"
+    },
+    "203": {
+        "name": "Last update",
+        "table": "glpi_notepads",
+        "field": "date_mod",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.Notepad.date_mod"
+    },
+    "204": {
+        "name": "Last updater",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "ProjectTask.users_id_lastupdater.Notepad.User.name"
+    },
+    "document": {
+        "name": "Documents"
+    },
+    "119": {
+        "name": "Number of documents",
+        "table": "glpi_documents_items",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "ProjectTask.Document_Item.id"
+    }
+}

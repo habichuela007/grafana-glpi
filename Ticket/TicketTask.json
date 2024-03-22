@@ -1,0 +1,144 @@
+http://10.20.10.33/glpi/apirest.php/listSearchOptions/TicketTask/
+{
+    "common": {
+        "name": "Characteristics"
+    },
+    "1": {
+        "name": "Description",
+        "table": "glpi_tickettasks",
+        "field": "content",
+        "datatype": "text",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.content"
+    },
+    "2": {
+        "name": "Task category",
+        "table": "glpi_taskcategories",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals",
+            "under",
+            "notunder"
+        ],
+        "uid": "TicketTask.TaskCategory.name"
+    },
+    "3": {
+        "name": "Date",
+        "table": "glpi_tickettasks",
+        "field": "date",
+        "datatype": "datetime",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "lessthan",
+            "morethan",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.date"
+    },
+    "4": {
+        "name": "Public followup",
+        "table": "glpi_tickettasks",
+        "field": "is_private",
+        "datatype": "bool",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "equals",
+            "notequals",
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.is_private"
+    },
+    "5": {
+        "name": "Technician",
+        "table": "glpi_users",
+        "field": "name",
+        "datatype": "dropdown",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains",
+            "equals",
+            "notequals"
+        ],
+        "uid": "TicketTask.User.name"
+    },
+    "6": {
+        "name": "Total duration",
+        "table": "glpi_tickettasks",
+        "field": "actiontime",
+        "datatype": "timestamp",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.actiontime"
+    },
+    "7": {
+        "name": "Status",
+        "table": "glpi_tickettasks",
+        "field": "state",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.state"
+    },
+    "document": {
+        "name": "Documents"
+    },
+    "119": {
+        "name": "Number of documents",
+        "table": "glpi_documents_items",
+        "field": "id",
+        "datatype": "count",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.Document_Item.id"
+    },
+    "plugins": {
+        "name": "Plugins"
+    },
+    "actualtime": {
+        "name": "ActualTime"
+    },
+    "7003": {
+        "name": "Task duration",
+        "table": "glpi_plugin_actualtime_tasks",
+        "field": "actual_actiontime",
+        "datatype": "specific",
+        "nosearch": false,
+        "nodisplay": false,
+        "available_searchtypes": [
+            "contains",
+            "notcontains"
+        ],
+        "uid": "TicketTask.TicketTask.PluginActualtimeTask.actual_actiontime"
+    }
+}
